@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { SlotMachine } from "./components/slot-machine/slot-machine";
+import { Controls } from "./components/controls/controls";
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [SlotMachine, Controls],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
