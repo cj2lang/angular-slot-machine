@@ -1,4 +1,13 @@
-p{
-    font-size: 5rem;
+p {
+    font-size: 4rem;
     color: #000000;
+    text-align: center;
+}
+:host {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
 }
