@@ -1,13 +1,14 @@
-p {
-    font-size: 4rem;
-    color: #000000;
-    text-align: center;
-}
 :host {
   display: block;
   width: 100%;
   height: auto;
   background-color: #f0f0f0;
-  border: 2px solid #ccc;
+  border: 5px solid #000000;
   border-radius: 8px;
+}
+.reel-result {
+    display: table;
+    font-size: 4rem;
+    color: #000000;
+    margin: auto;
 }

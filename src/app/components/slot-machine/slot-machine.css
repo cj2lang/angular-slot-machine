@@ -1,0 +1,11 @@
+:host {
+    display: block;
+    background-color: #d3af37;
+    padding: 5%;
+}
+.title{
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0% 0% 5% 0%;
+    font-size: 4rem;
+}

@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
 import { SlotMachine } from "./components/slot-machine/slot-machine";
-import { Controls } from "./components/controls/controls";
-
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [SlotMachine, Controls],
+  imports: [SlotMachine],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
