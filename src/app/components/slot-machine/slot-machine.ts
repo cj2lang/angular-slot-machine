@@ -13,7 +13,19 @@ import { Controls } from '../controls/controls';
 export class SlotMachine {
   @ViewChildren(Reel) reels!: QueryList<Reel>;
 
+  result: string = '';
+
   spinAll(){
     this.reels.forEach(reel => reel.spin());
+
+    setTimeout(() => {
+      const symbols = this.reels.map(reel => reel.currentSymbol);
+
+      if (symbols.every(symbol => symbol === symbols[0])){
+        this.result = 'Win';
+      } else {
+        this.result = 'Lose';
+      }
+    }, 100);
   }
 }

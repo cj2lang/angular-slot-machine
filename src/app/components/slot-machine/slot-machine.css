@@ -1,11 +1,21 @@
 :host {
     display: block;
     background-color: #d3af37;
-    padding: 5%;
+    padding: 2%;
 }
 .title{
     color: #FFFFFF;
     text-align: center;
-    margin: 0% 0% 5% 0%;
-    font-size: 4rem;
+    margin: 0% 0% 3% 0%;
+    font-size: 3rem;
+}
+.result{
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    width: 25%;
+    padding: 2% 0%;
+    margin: 3% auto;
+    border-radius: 15px;
+    font-size: 3rem;
 }
