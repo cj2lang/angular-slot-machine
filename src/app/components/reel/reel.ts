@@ -9,11 +9,21 @@ import { Component } from '@angular/core';
   styleUrl: './reel.css'
 })
 export class Reel {
-  symbols: string[] = ['1', '2', '3', '4', '5', '6', '7', '77', '777']
+  symbols: string[] = [
+    'assets/bomb.png',
+    'assets/box.png',
+    'assets/chest.png',
+    'assets/coin.png',
+    'assets/diamond.png',
+    'assets/heart.png',
+    'assets/potion.png',
+  ]
   currentSymbol: string = this.symbols[0];
 
   spin(){
     const index = Math.floor(Math.random() * this.symbols.length);
     this.currentSymbol = this.symbols[index];
   }
+
+
 }
